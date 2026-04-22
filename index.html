@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Portfolio</title>
+    <title>Smart Study Planner</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, I'm Vishnupriya </h1>
-    <p>I am a software developer interested in AI and Web Development.</p>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>C</li>
-        <li>HTML & CSS</li>
-    </ul>
+<h1>Smart Study Planner</h1>
 
-    <h2>Projects</h2>
-    <p>ArchCaveNet - CNN-based classification project</p>
-    <link rel="stylesheet" href="style.css">
+<input type="text" id="subject" placeholder="Subject">
+<input type="number" id="hours" placeholder="Hours">
+
+<button onclick="addTask()">Add</button>
+
+<ul id="list"></ul>
+
+<h2 id="total"></h2>
+
+<button onclick="clearAll()">Clear All</button>
+
+<script src="script.js"></script>
+
 </body>
 </html>
