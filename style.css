@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #eef2f7;
 }
 
 input {
@@ -12,8 +12,12 @@ input {
 button {
     padding: 8px;
     margin: 5px;
+    cursor: pointer;
 }
 
-ul {
-    list-style: none;
+li {
+    margin: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
 }
